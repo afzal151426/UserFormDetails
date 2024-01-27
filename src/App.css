@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
-}
+.text-end{
+  /* position: relative; */
+  /* border: 1px solid red; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+body{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.container{
+  background: grey;
+}
+.header{
+  /* width: px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 400px;
+  margin: 20px auto;
+}
+.labelParent{
+  position: relative;
+  left: 76%;
+  
+  /* border: 1px solid red; */
+  padding: 10px;
+  & label{
+    margin-right: 10px;
+    /* font-size: 16px; */
+    /* padding: 19px; */
   }
 }
+.labelParent>input{
+  padding: 7px;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-end input{
+  /* position: relative; */
+  /* left: 83%; */
+  /* border: 2px solid blue; */
+  margin-right: 2px;
+  /* padding: 10px; */
+}
+.step1{
+  /* border: 1px solid red; */
+}
+.container{
+  width: 70%;
+  /* border: 2px solid cyan; */
+  margin: 10px auto;
+  & h2{
+    text-align: center;
+  }
+}
+.search{
+  /* padding: 10px; */
+  /* border: 1px solid red; */
+  position: relative;
+  left: 80%;
+  & input{
+padding: 7px;
+
+  }
+}
+.heading{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.search>label{
+  font-size: 19px;
+  margin-right: 10px;
+  line-height: 10px;
 }
+.upperInfo{
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  /* border: 1px solid blue; */
+  margin: 20px;
+  background: rgba(86, 80, 80,1);
+  padding: 15px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input[type='text'],input[type=email],input[type=date],input[type=tel],label{
+  padding: 10px;
+  border: none;
+}
+select{
+  padding: 10px;
+}
+.lowerInfo{
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  /* border: 1px solid cyan; */
+  margin: 20px;
+  background: rgba(86, 80, 80,1);
+  padding: 15px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+}
+.btn{
+  /* border: 1px solid blue; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btnClass>button{
+  /* position: relative; */
+  /* left: 87%; */
+  padding: 10px;
+  font-weight: 700;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  /* color: white; */
+  background: cyan;
+  border-radius: 7px;
+  &:hover{
+    opacity: 0.8;
   }
 }
+.btnClass{
+  display: flex;
+  justify-content: space-between;
+}
+/* .personelDetails{
+  border: 1px solid blue;
+  width: 70%;
+  margin: 10px auto;
+} */
+/* div{
+  border: 1px solid red;
+} */
